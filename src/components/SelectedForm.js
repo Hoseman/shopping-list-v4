@@ -62,17 +62,40 @@ function SelectForm() {
 
         <select className={styles.input} value={selectedValue} onChange={handleSelectChange}>
           <option value="">Select an item</option>
-          <option value="Cabbage">Cabbage</option>
-          <option value="Strawberries">Strawberries</option>
+          <option value="Apples">Apples</option>
+          <option value="Apple Juice">Apple Juice</option>
           <option value="Bananas">Bananas</option>
-          <option value="Onions">Onions</option>
-          <option value="Carrots">Carrots</option>
-          <option value="Florette Salad">Florette Salad</option>
-          <option value="Tomoatos">Tomoatos</option>
-          <option value="Lemon Grass">Lemon Grass</option>
+          <option value="Barbecue Sauce">Barbecue Sauce</option>
           <option value="Battered Cod">Battered Cod</option>
-          <option value="McCain Oven Chips">McCain Oven Chips</option>
+          <option value="Broccoli">Broccoli</option>
+          <option value="Cabbage">Cabbage</option>
+          <option value="Carrots">Carrots</option>
+          <option value="Cider">Cider</option>
+          <option value="Deli Wraps">Deli Wraps</option>
+          <option value="Donuts">Donuts</option>
+          <option value="Fish Cakes">Fish Cakes</option>
+          <option value="Florette Salad">Florette Salad</option>
+          <option value="Free From Cheese">Free From Cheese</option>
+          <option value="Hoi-Sin Sauce">Hoi-Sin Sauce</option>
+          <option value="Honey">Honey</option>
+          <option value="Mature Chedder">Mature Chedder</option>
+          <option value="Nandos Lime Marinade">Nandos Lime Marinade</option>
+          <option value="Noodles">Noodles</option>
+          <option value="Lemon Grass">Lemon Grass</option>
+          <option value="Mature Chedder">Mature Chedder</option>
           <option value="Mashed Potato">Mashed Potato</option>
+          <option value="McCain Oven Chips">McCain Oven Chips</option>
+          <option value="Minced Beef">Minced Beef</option>
+          <option value="Olive Oil">Olive Oil</option>
+          <option value="Orange Juice">Orange Juice</option>
+          <option value="Onions">Onions</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Pork Strips">Pork Strips</option>
+          <option value="Sausages">Sausages</option>
+          <option value="Strawberries">Strawberries</option>
+          <option value="Sweet Chilli Sauce">Sweet Chilli Sauce</option>
+          <option value="Tea Bags">Tea Bags</option>
+          <option value="Tomatos">Tomatos</option>
         </select>
     
         <input

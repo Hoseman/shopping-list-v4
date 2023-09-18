@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    font-family: 'Josefin Sans', cursive;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    background: #cccccc;
+    justify-content:center;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    background: #cccccc;
+    justify-content:center;
+}
+.footer__signoff {
+    font-size: 0.8rem;
+}
+.header__title {
+    padding: 0;
+    margin: 0.5rem 0
+}
+.subheading {
+    font-size: 1.3rem;
+}
+.logo {
+    width: 31px;
+    margin-right: 0.5rem;
+    height: 36px;
+}
+.container {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form {
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+}
+.shopitem {
+    display: flex;
+    position: relative;
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 0.9rem 1rem 0.9rem 2.3rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.product__img {
+    position: absolute;
+    margin-top: 2px;
+    width:18px;
+    margin-right: 0.3rem;
+    left: 0.8rem;
+    top: 0.95rem;
+}
+.delete__btn {
+    margin-left: auto;
+    margin-right: 0;
+    border: 0;
+    Background: #000000;
+    color: white;
+    padding: 0.3rem 1rem;
+}
+.product__name {
+    margin-top: 0.3rem;
+}
+.todoitem {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.todoname {
+    padding: 0;
+    margin: 0;
+}
+.deletebutton {
+    background: #000000;
+    color: #ffffff;
+    border: 0;
+    height: 30px;
+}
+.input {
+    font-size: 0.95rem;
+    padding: 0.4rem 0.5rem;
+    color: #000000;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.6rem;
+}
+.input__small {
+    margin-left: 0.5rem;
+}
+.form__wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.added {
+    list-style-type: decimal;
+    padding: 0;
+    border: 0px solid #cccccc;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.3rem;
+}
+@media screen and (max-width: 767px) {
+    .added {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .added {
+        width: 90%;
+    }
+}
+.added li:nth-child(1) {
+    border-top: 1px solid #cccccc;
+}
+.added li {
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #cccccc;
+    padding:0.3rem 0;
+}
+.item__name {
+    margin-top: 3px;
+}
+.count {
+    background: #444;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 0.25rem 0.4rem 0.15rem 0.4rem;
+    margin: 0 0.5rem 0 0;
+    font-size:0.75rem;
+    font-weight: bold;
+    width: 7px;
+    display: inline-block;
+}
+/* .added li .input__small {
+    float: right;
+} */

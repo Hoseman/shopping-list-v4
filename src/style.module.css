@@ -156,11 +156,13 @@ body {
     margin-left: 0.5rem;
     -webkit-appearance: none;
     border-radius: 0;
-    border: 1px solid #444;
-}
-.input__small:hover {
+    border: 1px solid black;
     background: black;
     color: white;
+}
+.input__small:hover {
+    background: white;
+    color: black;
 }
 .form__wrapper {
     text-align: center;

@@ -116,7 +116,7 @@ function SelectForm() {
 
 
 
-  let count = 1;
+  //let count = 1;
 
   const uniquePrices = [...new Set(products.map((product) => product.price))];
 
@@ -182,7 +182,11 @@ function SelectForm() {
 
       <div style={ isSecondElementVisible ? StyleOne : StyleTwo } className={styles.shopping_content}>
 
-        <h2 className={styles.subheading}>Added Items:</h2>
+
+
+        <h2 className={styles.subheading}>Added Items ({addedItems.length}):</h2>
+
+        
 
         <ul className={styles.added}>
             
@@ -191,7 +195,7 @@ function SelectForm() {
             
 
             <li key={index}>
-              <span className={styles.item__name}><span className={styles.count}>{ count++ }</span>{item.value} - £{item.price.toFixed(2)}</span>
+              <span className={styles.item__name}><span className={styles.count}>{ index + 1 }</span>{item.value} - £{item.price.toFixed(2)}</span>
               <button className={styles.input__small} onClick={() => handleDeleteItem(index)}>Delete</button>
             </li>
 

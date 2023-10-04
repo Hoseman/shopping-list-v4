@@ -122,9 +122,23 @@ function SelectForm() {
 
   uniquePrices.sort((a, b) => a - b);
 
+  const [isSecondElementVisible, setIsSecondElementVisible] = useState(true);
+
+  const handleToggle = () => {
+    setIsSecondElementVisible(!isSecondElementVisible);
+  };
+
+  const StyleTwo = { padding: '6rem 0 0 0' }
+
+  const StyleOne = { padding: '17rem 0 0 0' }
+
   return (
 
     <>
+
+      <div onClick={handleToggle} className={ styles.menu__switcher }>{isSecondElementVisible ? "–" : "+"}</div>
+
+      {isSecondElementVisible && (
 
       <div className={styles.fixed_content}>
 
@@ -163,7 +177,10 @@ function SelectForm() {
       </div>          
 
 
-      <div className={styles.shopping_content}>
+      )}
+
+
+      <div style={ isSecondElementVisible ? StyleOne : StyleTwo } className={styles.shopping_content}>
 
         <h2 className={styles.subheading}>Added Items:</h2>
 

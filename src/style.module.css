@@ -14,15 +14,38 @@ body {
     padding: 0 2.5%;
 }
 .shopping_content{
-    padding: 18rem 0 0 0;
+    padding: 12rem 0 0 0;
 }
 .header {
-    display: flex;
     width: 100%;
     padding: 20px 0;
     background: #cccccc;
-    justify-content:center;
     position: fixed;
+}
+.header__content {
+    display: flex;
+    justify-content:center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu__switcher {
+    position: fixed;
+    right: 1rem;
+    top:1.8rem;
+    color: #ccc;
+    font-size: 1.9rem;
+    background: black;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+    line-height: 1.55rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 560px) {
+    .menu__switcher {
+        top:1.69rem;
+    }
 }
 .footer {
     display: flex;
@@ -35,8 +58,14 @@ body {
     font-size: 0.8rem;
 }
 .header__title {
+    font-size: 2rem;
     padding: 0;
     margin: 0.5rem 0
+}
+@media screen and (max-width: 560px) {
+    .header__title {
+        font-size: 1.6rem;
+    }
 }
 .subheading {
     font-size: 1.25rem;
@@ -45,6 +74,11 @@ body {
     width: 31px;
     margin-right: 0.5rem;
     height: 36px;
+}
+@media screen and (max-width: 560px) {
+    .logo {
+        width: 27px;
+    } 
 }
 .container {
     width: 950px;

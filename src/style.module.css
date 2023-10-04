@@ -28,6 +28,12 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1.1rem;
+}
+@media screen and (max-width: 560px) {
+    .header__content {
+        justify-content:flex-start;
+    }
 }
 .menu__switcher {
     position: fixed;

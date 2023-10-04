@@ -148,6 +148,8 @@ body {
 }
 .input__small {
     margin-left: 0.5rem;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 .form__wrapper {
     text-align: center;
